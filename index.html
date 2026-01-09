@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Youcef Merakchi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #6a11cb, #ff0066, #00c6ff, #7f00ff);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    color: white;
+}
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.card {
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+    padding: 35px;
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    opacity: 0.85;
+    margin-bottom: 30px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255,255,255,0.4);
+}
+
+.discord {
+    background: linear-gradient(135deg, #5865F2, #404eed);
+}
+
+.instagram {
+    background: linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+}
+
+.tiktok {
+    background: linear-gradient(45deg,#25f4ee,#000,#fe2c55);
+}
+
+footer {
+    margin-top: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>Youcef Merakchi</h1>
+    <div class="subtitle">Official Social Hub</div>
+
+    <a class="link discord" href="https://discord.com/users/percocet.20" target="_blank">
+        <i class="fa-brands fa-discord"></i> Discord
+    </a>
+
+    <a class="link instagram" href="https://instagram.com/nadir.xx10" target="_blank">
+        <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+
+    <a class="link tiktok" href="https://tiktok.com/@nadir.xx3" target="_blank">
+        <i class="fa-brands fa-tiktok"></i> TikTok
+    </a>
+
+    <footer>© 2026 Youcef Merakchi — All Rights Reserved</footer>
+</div>
+
+</body>
+</html>
